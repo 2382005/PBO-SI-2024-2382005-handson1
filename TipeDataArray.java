@@ -4,7 +4,9 @@ public class TipeDataArray {
         kumpulanAngka[0] = 10;
         kumpulanAngka[1] = 40;
         kumpulanAngka[2] = 50;
-        System.out.println(kumplanAngka[2]);
-        int[][]
+        System.out.println(kumpulanAngka[2]);
+        int[][] kumpulanAngkaMultiDimension = new int[3][3];
+        kumpulanAngkaMultiDimension[0] = kumpulanAngka;
+        System.out.println(kumpulanAngkaMultiDimension[0][2]);
     }
 }
